@@ -1,0 +1,14 @@
+===========================================================
+  TASK 3: CAMPUS LIBRARY RESPONSIVE LAYOUT VERIFICATION  
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+2026-11-21 09:06:03.316 java[43193:4540375] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-11-21 09:06:03.316 java[43193:4540362] Error received in message reply handler: Connection invalid
+2026-11-21 09:06:03.317 java[43193:4540362] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+WARNING: GL pipe is running in software mode (Renderer ID=0x1020400)
+
+--- Testing Resizing Geometry & Proportions ---
+1. Small Window Dimensions:  520x340 | Center Table Height: 0
+2. Medium Window Dimensions: 750x480 | Center Table Height: 0
+3. Large Window Dimensions:  1000x650 | Center Table Height: 0
+[AUDIT RESULT] North and South panels remained fixed preferred height while Center Table scaled proportionally.

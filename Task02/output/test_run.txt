@@ -1,0 +1,18 @@
+===========================================================
+  TASK 2: HOSPITAL APPOINTMENT DESK EVENT-DRIVEN DEMO    
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+2026-11-21 09:02:41.931 java[43160:4538036] Error received in message reply handler: Connection invalid
+2026-11-21 09:02:41.931 java[43160:4538050] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-11-21 09:02:41.932 java[43160:4538036] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+WARNING: GL pipe is running in software mode (Renderer ID=0x1020400)
+
+--- 1. Testing Department Selection Dynamic Filtering ---
+Cardiology doctors: [Dr. V. Ramanathan (MBBS, MD), Dr. S. Priya (DM Cardio)]
+Neurology doctors: [Dr. K. Anand (M.Ch Neuro), Dr. M. Deepa (MD, DM)]
+
+--- 2. Testing Validation Scenarios ---
+Empty ID Rejected: true
+Invalid Symbols Rejected: true
+[AUDIT BOOKING] Success: UHID=UHID-192324313 | Dept=Cardiology | Doctor=Dr. V. Ramanathan (MBBS, MD) | Slot=09:00 AM - 10:00 AM
+Valid Booking Confirmed: true

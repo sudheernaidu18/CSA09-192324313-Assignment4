@@ -1,0 +1,12 @@
+===========================================================
+  TASK 1: GUI DESIGN REVIEW - DIAGNOSE & REPAIR DEMO      
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+
+--- 1. Testing Service Layer Validation & Off-EDT Execution ---
+[TEST 1 PASSED] Validation Error: Register Number cannot be empty.
+[TEST 2 PASSED] Validation Error: Amount must be a valid numeric value.
+[HEADLESS AUDIT] GUI components instantiated and verified.
+[TEST 3 PASSED] Successfully processed payment of Rs. 12500.0 for Reg: 192324313
+
+[SUMMARY] Task 1 design review and repaired implementation verified.

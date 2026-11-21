@@ -1,0 +1,24 @@
+===========================================================
+  TASK 5: CURRENCY CONVERTER (TODO 1 & 2 VERIFICATION)   
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+2026-11-21 09:14:17.673 java[43273:4546891] Error received in message reply handler: Connection invalid
+2026-11-21 09:14:17.673 java[43273:4546904] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-11-21 09:14:17.674 java[43273:4546891] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+WARNING: GL pipe is running in software mode (Renderer ID=0x1020400)
+
+--- Test 1: Valid Conversion ---
+[CONVERT RESULT] Converted Rs. 10000.0 to 120.00 USD
+Displayed Label: 120.00 USD (Expected: 120.00 USD)
+
+--- Test 2: Valid Conversion EUR ---
+[CONVERT RESULT] Converted Rs. 50000.0 to 550.00 EUR
+Displayed Label: 550.00 EUR (Expected: 550.00 EUR)
+
+--- Test 3: Invalid Non-Numeric Input ---
+[CONVERT RESULT] Malformed input -> Invalid amount
+Displayed Label: Invalid amount (Expected: Invalid amount)
+
+--- Test 4: Invalid Negative Amount ---
+[CONVERT RESULT] Negative value -> Invalid amount
+Displayed Label: Invalid amount (Expected: Invalid amount)

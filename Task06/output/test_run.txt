@@ -1,0 +1,19 @@
+===========================================================
+  TASK 6: CAMPUS EVENT REGISTRATION APP (SWING + JDBC)   
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+
+--- Testing Layered Business Validation ---
+[TEST 1 PASSED] Rejected invalid Reg No: Register Number must be exactly 9 digits (e.g., 192324313).
+[TEST 2 PASSED] Rejected invalid Phone: Contact number must be a valid 10-digit Indian phone number.
+[TEST 3 PASSED] Valid Registration Inserted: true
+[TEST 4 PASSED] Duplicate Rejected by Database Unique Constraint: Unique index or primary key violation: "PUBLIC.UK_STUDENT_EVENT_INDEX_3 ON PUBLIC.EVENT_REGISTRATIONS(REG_NO NULLS FIRST, EVENT_ID NULLS FIRST) VALUES ( /* key:1 */ '192324313', 'EV-101')"; SQL statement:
+INSERT INTO event_registrations (reg_no, student_name, department, event_id, contact_phone) VALUES (?, ?, ?, ?, ?) [23505-224]
+[TEST 5 PASSED] Same student in different event (EV-102) accepted: true
+2026-11-21 09:17:05.754 java[43284:4548469] Error received in message reply handler: Connection invalid
+2026-11-21 09:17:05.754 java[43284:4548482] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-11-21 09:17:05.755 java[43284:4548469] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+WARNING: GL pipe is running in software mode (Renderer ID=0x1020400)
+[EXPORT] Exported CSV successfully: /Users/sudheernaidu/.gemini/antigravity/scratch/CSA09-192324313-Assignment4/Task06/event_registrations_export.csv
+
+[SUMMARY] Task 6 layered GUI-JDBC application verified with zero defects.

@@ -1,0 +1,22 @@
+===========================================================
+  TASK 4: EVENT-HANDLING FORENSICS (DRAWPAD TODO 1 & 2)  
+  Student: Korasika Sudheer | Register No: 192324313        
+===========================================================
+2026-11-21 09:08:43.662 java[43223:4542400] Connection Invalid error for service com.apple.hiservices-xpcservice.
+2026-11-21 09:08:43.662 java[43223:4542387] Error received in message reply handler: Connection invalid
+2026-11-21 09:08:43.663 java[43223:4542387] +[NSXPCSharedListener endpointForReply:withListenerName:replyErrorCode:]: an error occurred while attempting to obtain endpoint for listener 'ClientCallsAuxiliary': Connection invalid
+WARNING: GL pipe is running in software mode (Renderer ID=0x1020400)
+
+--- Simulating 5 User Click Interactions ---
+[DRAW AUDIT] Stored Point (50, 80) | Total Clicks: 1
+[DRAW AUDIT] Stored Point (120, 150) | Total Clicks: 2
+[DRAW AUDIT] Stored Point (200, 100) | Total Clicks: 3
+[DRAW AUDIT] Stored Point (300, 220) | Total Clicks: 4
+[DRAW AUDIT] Stored Point (180, 260) | Total Clicks: 5
+
+--- Verifying State & Repaint Resilience ---
+Total Points Recorded: 5 (Expected 5)
+Status Label Text:     'Clicks: 5' (Expected 'Clicks: 5')
+
+[SIMULATING MINIMIZE & RESTORE EVENT]
+Persistence Check: All 5 dots survive window repainting.
